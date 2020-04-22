@@ -1,0 +1,25 @@
+{
+    "name": "ellisthedev/laravel-5-robots",
+    "description": "Robots.txt Generator for Laravel 5",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Ellis",
+            "email": "awellis89@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": ">=5.0"
+    },
+    "require-dev": {
+        "codeclimate/php-test-reporter": "dev-master",
+        "phpunit/phpunit": "~4.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "EllisTheDev\\Robots\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
